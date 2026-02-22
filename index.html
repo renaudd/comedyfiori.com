@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>comedyfiori</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" type="image/png" href="comedyfiorilogo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="cookie-consent" class="cookie-banner">
+    <p>This site uses cookies to remember your language preference and improve your experience. By continuing to use the
+      site, you agree to our use of cookies.</p>
+    <div class="cookie-actions">
+      <button onclick="acceptCookies()" class="cookie-btn accept">Accept</button>
+      <button onclick="declineCookies()" class="cookie-btn">Decline</button>
+    </div>
+  </div>
+
+  <div class="custom-translate">
+    <a href="it.html" class="translate-btn" title="Italiano">IT</a>
+  </div>
+
+  <div class="container">
+    <header class="logo-container">
+      <h1 class="brand-title">comèdyfiori</h1>
+      <p id="tagline" class="tagline">Bringing Rome's best comedians to perform for America's worst tourists.</p>
+    </header>
+
+    <main class="actions">
+      <form class="signup-form"
+        action="https://docs.google.com/forms/d/e/1FAIpQLSc2jRFKtVQPQ6jRJk2oQzJjly2SB69H6kJV3VzkjXvB8kGmIQ/formResponse"
+        method="POST" target="_blank">
+        <div class="input-group">
+          <label for="email-field" class="form-label">I cannot wait to learn more about that at:</label>
+          <input type="email" id="email-field" name="entry.1828905032" placeholder="myemail@address.com" required>
+
+          <label for="message-field" class="form-label">I also wanted to let you know:</label>
+          <textarea id="message-field" name="entry.123456789" placeholder="something" rows="3"></textarea>
+
+          <button type="submit" class="btn-submit">Submit</button>
+        </div>
+      </form>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

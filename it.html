@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>comedyfiori</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" type="image/png" href="comedyfiorilogo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="cookie-consent" class="cookie-banner">
+    <p>Questo sito utilizza i cookie per ricordare le tue preferenze linguistiche e migliorare la tua esperienza.
+      Continuando a utilizzare il sito, accetti il nostro utilizzo dei cookie.</p>
+    <div class="cookie-actions">
+      <button onclick="acceptCookies()" class="cookie-btn accept">Accetta</button>
+      <button onclick="declineCookies()" class="cookie-btn">Declina</button>
+    </div>
+  </div>
+
+  <div class="custom-translate">
+    <a href="index.html" class="translate-btn" title="English">EN</a>
+  </div>
+
+  <div class="container">
+    <header class="logo-container">
+      <h1 class="brand-title">comèdyfiori</h1>
+      <p id="tagline" class="tagline">Portiamo i peggiori comici d'America ad esibirsi per i peggiori turisti di Roma.
+      </p>
+    </header>
+
+    <main class="actions">
+      <form class="signup-form"
+        action="https://docs.google.com/forms/d/e/1FAIpQLSc2jRFKtVQPQ6jRJk2oQzJjly2SB69H6kJV3VzkjXvB8kGmIQ/formResponse"
+        method="POST" target="_blank">
+        <div class="input-group">
+          <label for="email-field" class="form-label">Non vedo l'ora di saperne di più a:</label>
+          <input type="email" id="email-field" name="entry.1828905032" placeholder="ilmioindirizzo@email.com" required>
+
+          <label for="message-field" class="form-label">Volevo anche farti sapere:</label>
+          <textarea id="message-field" name="entry.123456789" placeholder="qualcosa" rows="3"></textarea>
+
+          <button type="submit" class="btn-submit">Invia</button>
+        </div>
+      </form>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
